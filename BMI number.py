@@ -2,10 +2,8 @@
 # coding:utf-8
 name = input('请输入你的名字:')
 print('hello',name,)
-shengao = input('请输入你的身高（单位/米）：')
-shengao = float(shengao)
-tizhong = input('请输入你的体重（单位/Kg）:')
-tizhong = float(tizhong)
+shengao = float(input('请输入你的身高（单位/米）：'))
+tizhong = float(input('请输入你的体重（单位/Kg）:'))
 sg = shengao**2
 BMI = tizhong / sg
 if BMI <18.5:
